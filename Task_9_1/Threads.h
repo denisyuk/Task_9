@@ -21,7 +21,7 @@ DWORD WINAPI ThFunc(LPVOID id)
 	return NULL;
 }
 
-void RandInt(int* arr)	//random integer degets
+void RandInt(int* arr)	//random integer digits
 {
 	srand((UINT)time(NULL));
 	int iRandVal;
