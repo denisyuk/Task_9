@@ -21,7 +21,7 @@ DWORD WINAPI ThFunc(LPVOID id)
 	return NULL;
 }
 
-void RandInt(int* arr)
+void RandInt(int* arr)	//random integer degets
 {
 	srand((UINT)time(NULL));
 	int iRandVal;
@@ -48,7 +48,7 @@ void RandInt(int* arr)
 	}
 }
 
-void RandStr(LPSTR* pNames)
+void RandStr(LPSTR* pNames)	//random string - uses for events name
 {
 	char res[STR_SIZE];
 	int t;
